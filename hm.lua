@@ -3,7 +3,6 @@ math.randomseed(tick())
 local getIT = script:WaitForChild("Settings")
 local setting = require(getIT)
 
-
 --//////////////Config/////////////////--
 local gcinfo_protection = setting.gcinfo_protection --gcinfo() protection (Can false-positive kicks)
 local gcinfo_multiplier = setting.gcinfo_multiplier --The bigger, the less chance of getting kicked
