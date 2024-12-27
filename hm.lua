@@ -1,7 +1,7 @@
 math.randomseed(tick())
 
-local getIT = script:WaitForChild("Settings")
-local setting = require(getIT)
+local rs = game:GetService("ReplicatedStorage")
+local setting = require(rs.Modules.AntiSettings)
 
 --//////////////Config/////////////////--
 local gcinfo_protection = setting.gcinfo_protection --gcinfo() protection (Can false-positive kicks)
