@@ -31,7 +31,7 @@ local print_version = setting.print_version
 
 
 setting:Destroy()
-
+ 
 
 wait(tempo_para_iniciar)
 
